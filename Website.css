@@ -93,6 +93,7 @@ ul,li{
 #syuusyoku{
     height: 400px;
     width: 100%;
+    display: flex;
     background-color: aliceblue;
 }
 #syuusyoku img{
