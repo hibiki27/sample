@@ -1,8 +1,13 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
 body{
     margin: 0px;
     background-color: aliceblue;
 }
 header{
+  width: 100%;
     height: 60px;
     background-color: #030303;
     margin: auto;
@@ -52,26 +57,29 @@ ul,li{
     color: aliceblue;
   }
   #HomeImg{
-    height: 800px;
+    height: calc(100vh-60px);
     width: 100%;
     background-color: bisque;
   }
   #down{
     text-align: center;
     font-weight: bold;
+    font-size: 50px;
     display: block;
+    background-color: #030303;
+    color: aliceblue;
+    margin-top: 0px;
   }
   #corce-intro{
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
   }
   .corce{
     text-align: center;
   }
   .corce li{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     background-color: #4c659b;
     display: inline-block;
     margin: 20px;
@@ -84,24 +92,60 @@ ul,li{
 .corce li a{
     text-decoration: none;
     color: aliceblue;
+    font-size: 35px;
 }
 .corce img{
-    height: 120px;
-    width: 150px;
+    height: 240px;
+    width: 300px;
     margin-left: 5px;
 }
 #syuusyoku{
-    height: 400px;
+    height: 380px;
     width: 100%;
     display: flex;
-    background-color: aliceblue;
+    background-color: #030303;
+    margin-top: 100px;
 }
 #syuusyoku img{
     height: 380px;
-    width: 470px;
+    width: 760px;
     display: inline-block;
+    margin-left: 100px;
+}
+#syuusyoku div{
+  height: 340px;
+  width: 700px;
+  margin-left: 150px; 
 }
 #syuusyoku p{
     display: inline-block;
-    margin-left: 500px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#syuusyoku h2{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  color: aliceblue;
+}
+#intaview h2{
+  text-align: center;
+  font-weight: bold;
+}
+#intaview nav{
+  text-align: center;
+}
+#intaview li{
+  height: 270px;
+  width: 400px;
+  background-color: #4c659b;
+  display: inline;
+  margin: 20px;
+  text-align: center;
+}
+#intaview li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 35px;
+  padding: 10px;
 }
