@@ -64,10 +64,11 @@ header nav .menu li a {
   color: aliceblue;
 }
 #HomeImg {
-  height: calc(100vh - 60px);
+  height: calc(100vh - 120px);
   width: 100%;
   background-color: bisque;
   display: block;
+  margin-top: 60px;
 }
 #down {
   text-align: center;
