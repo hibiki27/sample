@@ -71,6 +71,10 @@ header nav .menu li a {
   display: block;
   margin-top: 60px;
 }
+#HomeImg img{
+  height: 100%;
+  width: 100%;
+}
 #down {
   text-align: center;
   font-weight: bold;
