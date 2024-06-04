@@ -134,21 +134,19 @@ header nav .menu li a {
 #syuusyoku img {
   height: 380px;
   width: 760px;
-  display: inline-block;
 }
 #syuusyoku div {
   height: 340px;
-  width: 700px;
+  width: 1100px;
+  display: flex;
 }
 #syuusyoku text {
   height: 340px;
   width: 500px;
-  display: flex;
 }
 #syuusyoku p {
   font-size: 20px;
   color: aliceblue;
-  padding-top: 90px;
 }
 #syuusyoku h2 {
   text-align: center;
