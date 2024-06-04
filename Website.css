@@ -152,6 +152,7 @@ header nav .menu li a {
   font-weight: bold;
   color: aliceblue;
   padding-top: 40px;
+  display: block;
 }
 #intaview h2 {
   text-align: center;
