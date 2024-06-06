@@ -43,7 +43,7 @@ header .container {
 }
 header nav .menu {
   background-color: #030303;
-  width: 480px;
+  width: 800px;
   height: 100%;
   display: flex;
   gap: 10px;
@@ -55,7 +55,9 @@ li {
 header nav .menu li {
   flex: 1;
 }
-
+#home{
+  border-right: 2px solid #FFFFFF;
+}
 header nav .menu li a {
   display: flex;
   height: 100%;
@@ -63,6 +65,7 @@ header nav .menu li a {
   align-items: center;
   text-decoration: none;
   color: aliceblue;
+  border-right: 1px solid #FFFFFF;
 }
 #HomeImg {
   height: calc(100vh - 120px);
