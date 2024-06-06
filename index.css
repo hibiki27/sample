@@ -88,6 +88,7 @@ header nav .menu li a {
 #corce-intro {
   text-align: center;
   font-weight: bold;
+  padding-top:100px ;
 }
 .corce {
   width: 1300px;
@@ -171,9 +172,15 @@ header nav .menu li a {
 #intaview{
   margin: 80px;
 }
-#intaview nav {
-  text-align: center;
+#intaview ul{
   display: flex;
+  flex-wrap: wrap;
+  /* 要素を横並びにする */
+}
+#intaview nav {
+  width: 900px;
+  margin: auto;
+  align-items: center;
 }
 #intaview li {
   height: 60px;
