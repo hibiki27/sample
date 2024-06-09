@@ -75,9 +75,32 @@ header nav .menu li a {
   display: block;
   margin-top: 60px;
 }
+  #HomeImg div{
+    background-color: #0303034a;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 230px;
+    height: 560px;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
 #HomeImg img{
   height: 100%;
   width: 100%;
+  display: flex;
+}
+#HomeImg text{
+  display: flex;
+  color: #fcfcfc;
+  writing-mode: vertical-rl;
+  font-size: 60px;
+  letter-spacing: 7px;
 }
 #down {
   text-align: center;

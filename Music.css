@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-color: #fcfcfc;
+  }
   html,body {
     overflow-x: hidden;
 }
@@ -51,6 +54,7 @@ header {
   header nav .menu li {
     flex: 1;
   }
+
   #home{
     border-right: 2px solid #FFFFFF;
   }
@@ -64,19 +68,38 @@ header {
     border-right: 1px solid #FFFFFF;
   }
 #HomeImg {
-    height: calc(100vh - 120px);
-    width: 100%;
     /* 100%を変える */
     background-color: bisque;
-    display: block;
     margin-top: 60px;
+    position: relative;
+    vertical-align: auto;
+  }
+  #HomeImg div{
+    background-color: #0303034a;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    width: 300px;
+    height: 120px;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
   }
   #HomeImg img{
-    height: 100%;
+    height: 853px;
     width: 100%;
+    display: flex;
   }
   #HomeImg text{
     display: flex;
+    font-size: 20px;
+  }
+  #HomeImg text span{
+    font-size: 1.8em;
   }
   #setubi {
     height: 380px;
